@@ -24,7 +24,8 @@
                 <hr class="my-4">
                 <h2>Make your reservation</h2>
                 <br>
-                <a class="btn btn-primary btn-lg" href="tables.html" role="button"><i class="fa fa-list-alt" aria-hidden="true"></i> View Tables</a>
+                <a class="btn btn-primary btn-lg" href="tables.html" role="button"><i class="fa fa-list-alt"
+                        aria-hidden="true"></i> View Tables</a>
                 <a class="btn btn-lg" href="home.html" role="button"><img src="Assets/home.svg" width="40px"></a>
             </center>
         </div>
@@ -64,12 +65,20 @@
     </div>
     <footer class="footer">
         <div class="container">
-          <p>
-            <a href="#">API Table Link</a> |
-            <a href="#">API Wait List</a>
+            <p>
+                <a href="#">API Table Link</a> |
+                <a href="#">API Wait List</a>
         </div>
-      </footer>
+    </footer>
 
 </body>
 
 </html>
+
+<script type="text/javascript">
+
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+
+    });
+</script>
