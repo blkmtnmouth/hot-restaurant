@@ -80,5 +80,13 @@
     $(".submit").on("click", function (event) {
         event.preventDefault();
 
+        // grab form input data
+        var reservation = {
+            name: $("#reserve-name"),
+            phoneNumber: $("#reserve-phone"),
+            email: $("#reserve-email"),
+            uniqueID: $("#reserve-unique-id"),
+        };
+
     });
 </script>
